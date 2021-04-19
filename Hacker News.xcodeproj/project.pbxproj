@@ -16,6 +16,8 @@
 		C21624ED262D868300FA7D57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21624EB262D868300FA7D57 /* LaunchScreen.storyboard */; };
 		C21624F6262D8E5A00FA7D57 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21624F5262D8E5A00FA7D57 /* NetworkManager.swift */; };
 		C21624F8262D908000FA7D57 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21624F7262D908000FA7D57 /* PostData.swift */; };
+		C21624FC262D981400FA7D57 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21624FB262D981400FA7D57 /* DetailView.swift */; };
+		C21624FE262D9D4400FA7D57 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21624FD262D9D4400FA7D57 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		C21624EE262D868300FA7D57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C21624F5262D8E5A00FA7D57 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		C21624F7262D908000FA7D57 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		C21624FB262D981400FA7D57 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C21624FD262D9D4400FA7D57 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +69,7 @@
 				C21624F4262D8E3C00FA7D57 /* Models */,
 				C21624DD262D868200FA7D57 /* AppDelegate.swift */,
 				C21624DF262D868200FA7D57 /* SceneDelegate.swift */,
-				C21624E4262D868200FA7D57 /* ContentView.swift */,
+				C21624FA262D97DE00FA7D57 /* Views */,
 				C21624E6262D868300FA7D57 /* Assets.xcassets */,
 				C21624EB262D868300FA7D57 /* LaunchScreen.storyboard */,
 				C21624EE262D868300FA7D57 /* Info.plist */,
@@ -86,10 +90,20 @@
 		C21624F4262D8E3C00FA7D57 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C21624F5262D8E5A00FA7D57 /* NetworkManager.swift */,
 				C21624F7262D908000FA7D57 /* PostData.swift */,
+				C21624F5262D8E5A00FA7D57 /* NetworkManager.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C21624FA262D97DE00FA7D57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C21624E4262D868200FA7D57 /* ContentView.swift */,
+				C21624FB262D981400FA7D57 /* DetailView.swift */,
+				C21624FD262D9D4400FA7D57 /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,8 +178,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C21624E3262D868200FA7D57 /* Hacker_News.xcdatamodeld in Sources */,
+				C21624FE262D9D4400FA7D57 /* WebView.swift in Sources */,
 				C21624F8262D908000FA7D57 /* PostData.swift in Sources */,
 				C21624DE262D868200FA7D57 /* AppDelegate.swift in Sources */,
+				C21624FC262D981400FA7D57 /* DetailView.swift in Sources */,
 				C21624F6262D8E5A00FA7D57 /* NetworkManager.swift in Sources */,
 				C21624E5262D868200FA7D57 /* ContentView.swift in Sources */,
 				C21624E0262D868200FA7D57 /* SceneDelegate.swift in Sources */,
